@@ -2,31 +2,14 @@
 # yarn lockfile v1
 
 
-"@achrinza/event-pubsub@5.0.11":
-  version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@achrinza/event-pubsub/-/event-pubsub-5.0.11.tgz#8aadeb5b4d8d8b7ac7631269793bdb12fc38f78d"
-  integrity sha512-H/bswjSh/wMIgtizHIdeQQuquzBsia0uqf0IaadMKhS7jv5wX0iMqkVbYDZhUhbjJqXnfX4jjzgclt24aizdHA==
+"@achrinza/node-ipc@^9.2.5":
+  version "9.2.10"
+  resolved "https://registry.yarnpkg.com/@achrinza/node-ipc/-/node-ipc-9.2.10.tgz#aa17def30e134e8c0a8738ffc13e50c08a753ff0"
+  integrity sha512-rCkw57K82y1XA9KwBmuMrupFQr9VOS4Rn77vW2UD2j0+HjlP/npSON9COkUIfocd95B4wv5EpfWMr6lGD4lN3A==
   dependencies:
-    "@achrinza/strong-type" "0.1.14"
-
-"@achrinza/node-ipc@^9.2.5", "@achrinza/node-ipc@https://github.com/youshandefeiyang/node-ipc.git#main":
-  version "10.1.11"
-  resolved "https://github.com/youshandefeiyang/node-ipc.git#bc368155018d757c0591074abf4319d402968ed4"
-  dependencies:
-    "@achrinza/event-pubsub" "5.0.11"
-    "@achrinza/strong-type" "1.1.20"
     "@node-ipc/js-queue" "2.0.3"
+    event-pubsub "4.3.0"
     js-message "1.0.7"
-
-"@achrinza/strong-type@0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@achrinza/strong-type/-/strong-type-0.1.14.tgz#8d72de8ff2849143093d1acaafdd377299818683"
-  integrity sha512-Se5kMdqRxrjBfpUnVS819OUqW6XUj2ryOHNkZizQ44FGQMfr5X+RXyi4Y8DZn5+lsx2sdnIylpmK6N7TGMpDrw==
-
-"@achrinza/strong-type@1.1.20":
-  version "1.1.20"
-  resolved "https://registry.yarnpkg.com/@achrinza/strong-type/-/strong-type-1.1.20.tgz#8dc16812aec359e85403209537fa141347ff9fdb"
-  integrity sha512-7+A0aC1C6tt1j69phZocl13RZ4vzz6W6jFhSUty9KNgKyoUH48oeZlSQdj2VONlT+sbdkfO7VJJbWiKBqNwebA==
 
 "@ampproject/remapping@^2.2.0":
   version "2.3.0"
@@ -3315,6 +3298,11 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
+
+event-pubsub@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/event-pubsub/-/event-pubsub-4.3.0.tgz#f68d816bc29f1ec02c539dc58c8dd40ce72cb36e"
+  integrity sha512-z7IyloorXvKbFx9Bpie2+vMJKKx1fH1EN5yiTfp8CiLOTptSYy1g8H4yDpGlEdshL1PBiFtBHepF2cNsqeEeFQ==
 
 eventemitter3@^4.0.0:
   version "4.0.7"
